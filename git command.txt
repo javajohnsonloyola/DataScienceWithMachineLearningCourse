@@ -1,5 +1,17 @@
+create a new repository on the command line:
+--------------------------------------------
+echo "# DataScienceWithMachineLearningCourse" >> README.md
 git init
-git add <your-notebook-name>.ipynb
-git commit -m "Initial commit"
-git remote add origin https://github.com/<your-username>/<repository-name>.git
+git add .
+git commit -m "Add Jupyter notebook"
+git branch -M main
+git remote add origin https://github.com/javajohnsonloyola/DataScienceWithMachineLearningCourse.git
+git remote -v
+git push -u origin main
+
+
+push an existing repository from the command line:
+------------------------------------------------------
+git remote add origin https://github.com/javajohnsonloyola/DataScienceWithMachineLearningCourse.git
+git branch -M main
 git push -u origin main
