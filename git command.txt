@@ -9,6 +9,12 @@ git remote add origin https://github.com/javajohnsonloyola/DataScienceWithMachin
 git remote -v
 git push -u origin main
 
+To add new files or update files on the same project directory:
+--------------------------------------------------------------
+git status
+git add .
+git commit -m "update"
+git push
 
 push an existing repository from the command line:
 ------------------------------------------------------
